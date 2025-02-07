@@ -1,1 +1,16 @@
+"use client"
 
+import React from 'react'
+
+const BikeApp = () => {
+  return (
+    <div>
+      <h1>Bike Maintenance</h1>
+      <button className="bg-red-500 text-white px-4 py-2 rounded">
+        Sair
+      </button>
+    </div>
+  )
+}
+
+export default BikeApp
